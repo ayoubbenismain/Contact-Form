@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>Contact Form</title>
+</head>
+<body>
+    <div class="done" id="done">
+        <h1>done !</h1>
+        <img src="icon.png" alt="">
+    </div>
+    <main id="main">
+        <div class="container" id="container">
+            <div class="leftside" id="leftside">
+                <h1 class="title">Let's Chat</h1>
+                <p>Whether you have a question, Want to start a project or simply want to connect.</p>
+                <p>Feel free to send me a message in the contact form.</p>
+            </div>
+            <div class="rightside" id="rightside">
+                <h1 class="title">contact</h1>
+                <div>
+                    <input type="text" class="name" onclick="inputBox('name')" id="inputName">
+                    <span id="name">Name*</span>
+                </div>
+                <div>
+                    <input type="text" class="email" onclick="inputBox('email')" id="inputEmail">
+                    <span id="email">Email*</span>
+                </div>
+                <div>
+                    <input type="text" class="company" onclick="inputBox('company')">
+                    <span id="company">Company</span>
+                </div>
+                <div>
+                    <input type="text" class="phone" onclick="inputBox('phone')">
+                    <span id="phone">Phone</span>
+                </div>
+                <div>
+                    <textarea class="message" id="" cols="" rows="" onclick="inputBox('message')"></textarea>
+                    <span id="message">Message</span>
+                </div>
+                <div class="button" id="submit">Submit</div>
+            </div>
+        </div>
+    </main>
+<script src="main.js"></script>
+</body>
+</html>
